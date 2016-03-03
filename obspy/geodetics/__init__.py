@@ -16,6 +16,8 @@ from future.builtins import *  # NOQA
 from .base import (calc_vincenty_inverse, degrees2kilometers, gps2dist_azimuth,
                    kilometer2degrees, locations2degrees)
 from .flinnengdahl import FlinnEngdahl
+from .geodesic import (direct_geodetic_degree, direct_geodetic_meter, 
+                       inverse_geodetic)
 
 
 if __name__ == '__main__':
